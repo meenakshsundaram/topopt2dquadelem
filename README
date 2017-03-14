@@ -1,0 +1,23 @@
+%
+%    This file is a part of the topopt2dquadelem a matlab library. This 
+%    is free software: you can redistribute it and/or modify it under 
+%    the terms of the GNU Lesser General Public License as published by the 
+%    Free Software Foundation, either version 3 of the License, or 
+%    (at your option) any later version.
+%
+%    topopt2dquadelem is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU Lesser General Public License for more details.
+%
+%    You should have received a copy of the GNU Lesser General Public License
+%    along with topopt2dquadelem.  If not, see <http://www.gnu.org/licenses/>.
+%
+%    Copyright 2010 Meenakshi Sundaram   
+%
+
+topopt2dquadelem is a matlab library for topology optimizing in 2d systems. 
+The objective function is here done for strain energy. An example that 
+demonstrates this is in bridgedemo.m. Try running it. The code is right now
+tuned for plane stress. Plane strain is also a possibility, one just has
+to uncomment the plane strain constitutive law. 
